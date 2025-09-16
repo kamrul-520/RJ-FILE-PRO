@@ -181,7 +181,7 @@ def menu():
                 x = ("***")
                 if x == ("***"):
                         print('\033[1;31m[\033[1;32m1\033[1;31m]\033[1;37m CRACK FILE✔️ ')
-                        print('\033[1;31m[\033[1;32m2\033[1;31m]\033[1;37m RANDOM CRACK'✔️)                                    
+                        print('\033[1;31m[\033[1;32m2\033[1;31m]\033[1;37m RANDOM CRACK✔️')                                    
                         print('\033[1;31m[\033[1;32m0\033[1;31m]\033[1;37m EXIT ❌')
                         line()
                         xd=input(' CHOOSE AN OPTION: ')
@@ -680,4 +680,5 @@ def newidx(ids,names,passlist):
 		time.sleep(20)
 	except Exception as e:
 		pass
+
 menu()
